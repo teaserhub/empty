@@ -76,6 +76,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+export EDITOR=vim
+export EDITOR=vim
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -124,7 +126,7 @@ alias mv='mv -i'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-
+alias dir='ncdu'
 # Git
 alias gs='git status'
 #alias ga='git add'
