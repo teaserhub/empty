@@ -130,6 +130,7 @@ alias ....='cd ../../..'
 alias dir='ncdu'
 alias services='sudo systemctl'
 alias logs='sudo journalctl'
+alias disks='lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINT,LABEL'
 
 # Git
 #alias ga='git add'
