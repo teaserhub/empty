@@ -1,0 +1,54 @@
+# Кэши
+.cache/
+.npm/
+.yarn/
+.cargo/
+.m2/repository/
+.gradle/caches/
+.nuget/packages/
+.composer/cache/
+
+# Временные файлы
+*.tmp
+*.temp
+*.swp
+*.swo
+.swn
+.tmp/
+tmp/
+temp/
+
+# Зависимости
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Браузеры
+.config/google-chrome/Default/Cache/
+.config/chromium/Default/Cache/
+.mozilla/firefox/*/cache/
+
+# Загрузки
+Downloads/iso/
+Downloads/*.iso
+Downloads/*.deb
+
+# Игры и виртуальные машины
+.virtualbox/
+VirtualBox VMs/
+.steam/
+
+# Системное
+.local/share/Trash/
+.thumbnails/
+.xsession-errors*
+.ICEauthority
+.Xauthority
+
+# Дополнительные большие файлы (можно добавить)
+# *.mkv
+# *.mp4
+# *.ova
