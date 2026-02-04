@@ -113,7 +113,8 @@ alias sorted='du -sh * | sort -h'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias err='journalctl -b -p error'
-alias err='journalctl -b -p warning'
+alias warning='journalctl -b -p warning'
+
 # Pacman
 alias update='sudo pacman -Syu'
 alias clean='sudo pacman -Scc'
